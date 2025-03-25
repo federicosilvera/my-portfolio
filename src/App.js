@@ -48,7 +48,7 @@ function App() {
             </div>
             </div>
           <div className="tech-container">
-            <h2 className="title-tech">Gestion y frameworks</h2>
+            <h2 className="title-tech">Gestion</h2>
             <p className="title-tech">Git, GitHub</p>
             <div className="images-tech">
               <img className="images-tech" src="git.png" alt="Git" />
