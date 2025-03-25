@@ -1,38 +1,105 @@
-.App {
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: white;
+}
+a{
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+.main-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+.center{
+  display: flex;
+  justify-self: center;
+  margin: 10px;
+}
+
+.title-main{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+.text-clima{
+  margin: 10px;
+  font-size: 1.4rem;
+}
+
+.tech-container{
+    border: white 1px solid;
+    border-radius:5px ;
+    margin: 10px;
+}
+
+.images-tech{
+  margin: 10px;
+}
+
+.title-tech{
+  margin: 10px;
+}
+
+.image-clima{
+  width: 40%;
+  display: flex;
+  justify-self: center;
+}
+.contain-clima{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.clima-container{
+  border: white 1px solid;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 60vw;
+}
+.text-clima{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title-exp{
+    text-align: center;
+    margin: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-card{
+  text-align: center;
+  font-size: 1.3rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-cont{
+  border: 1px white solid;
+  border-radius: 10px;
+  width: 60%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-self: center;
 }
 
-.App-link {
-  color: #61dafb;
+.icon{
+  margin-right:10px ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+body{
+  background: linear-gradient(to right, #6B7280, #1F2937);
+  height: 100vh;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  
+img{
+  width: 40px;
 }
+
+ .scroll{
+  transform: rotate(180deg);
+ } 
+  
+
+
